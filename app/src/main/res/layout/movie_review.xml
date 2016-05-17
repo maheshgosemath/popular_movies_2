@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/movie_review_author" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/movie_detail_text_author"/>
+    <TextView android:id="@+id/movie_review" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/user_reviews"/>
+    <TextView android:id="@+id/movie_review_show_more" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_review_more"
+        style="@style/read_more"/>
+</LinearLayout>
